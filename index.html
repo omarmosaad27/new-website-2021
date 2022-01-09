@@ -619,19 +619,19 @@
                 <div class="counter-box">
                     <div class="counter">
                         <div>
-                            <span class="num">50</span>
+                            <span class="days"></span>
                             <span>days</span>
                         </div>
                         <div>
-                            <span class="num">30</span>
+                            <span class="hrs"></span>
                             <span>hours</span>
                         </div>
                         <div>
-                            <span class="num">15</span>
+                            <span class="mins"></span>
                             <span>minutes</span>
                         </div>
                         <div>
-                            <span class="num">10</span>
+                            <span class="secs"></span>
                             <span>seconds</span>
                         </div>
                     </div>
@@ -717,19 +717,41 @@
                         top videos
                         <i class="fas fa-random"></i>
                     </div>
-                    <ul>
-                        <li>How To Create Sub Domain <span>05:10</span></li>
-                        <li>Playing With The DNS <span>03:08</span></li>
-                        <li>Everything About The Virtual Hosts <span>08:10</span></li>
-                        <li>How To Monitor Your Website <span>04:05</span></li>
-                        <li>Uncharted Beating The Last Boss <span>08:45</span></li>
-                        <li>Ys Oath In Felghana Overview <span>05:06</span></li>
-                        <li>Ys Series All Games Ending <span>03:02</span></li>
+                    <ul class="switchers">
+                        <li class="active" data-content=".domain">How To Create Sub Domain <span>05:10</span></li>
+                        <li data-content=".dns">Playing With The DNS <span>03:08</span></li>
+                        <li data-content=".hosts">Everything About The Virtual Hosts <span>08:10</span></li>
+                        <li data-content=".monitor">How To Monitor Your Website <span>04:05</span></li>
+                        <li data-content=".uncharted">Uncharted Beating The Last Boss <span>08:45</span></li>
+                        <li data-content=".oath">Ys Oath In Felghana Overview <span>05:06</span></li>
                     </ul>
                 </div>
-                <div class="preview">
-                    <img src="imgs/video-preview.jpg" alt="video">
-                    <div class="info">Everything About The Virtual Hosts</div>
+                <div class="preview ">
+                    <div class="active domain">
+                        <img src="imgs/video-preview.jpg" alt="video">
+                        <p class="info">How To Create Sub Domain</p>
+                    </div>
+                    <div class="dns">
+                        <img src="imgs/cat-01.jpg" alt="video">
+                        <p class="info">Playing With The DNS</p>
+                    </div>
+                    <div class="hosts">
+                        <img src="imgs/cat-02.jpg" alt="video">
+                        <p class="info">Everything About The Virtual Hosts</p>
+                    </div>
+                    <div class="monitor">
+                        <img src="imgs/cat-03.jpg" alt="video">
+                        <p class="info">How To Monitor Your Website</p>
+                    </div>
+                    <div class="uncharted">
+                        <img src="imgs/cat-04.jpg" alt="video">
+                        <p class="info">Uncharted Beating The Last Boss</p>
+                    </div>
+                    <div class="oath">
+                        <img src="imgs/cat-05.jpg" alt="video">
+                        <p class="info">Ys Oath In Felghana Overview </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>

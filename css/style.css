@@ -968,7 +968,7 @@ img {
   padding: 0px 15px;
   text-align: center;
 }
-.num {
+.counter div span:first-child {
   font-size: 2rem;
   font-weight: bold;
   color: var(--main-color);
@@ -1217,14 +1217,22 @@ img {
   background: #f9f9f9;
   color: var(--main-color);
 }
+.list ul li.active{
+  background: #f9f9f9;
+  color: var(--main-color);
+}
 .list ul li span{
   color: #666666;
 }
-.preview{
+.preview > div{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0.7rem;
+  display: none;
+}
+.preview > div.active{
+  display: block;
 }
 .preview .info{
   background: white;
